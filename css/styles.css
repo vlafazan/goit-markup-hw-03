@@ -1,0 +1,234 @@
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* основной цвет фона #FFFFFF */
+/* белый цвет #FFFFFF */
+/* вторичный цвет фона #2F303A */
+/* цвет фона 3 #F5F4FA */
+/* прозрачность rgba(255, 255, 255, 0.6); */
+/* цвет акцент #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --bgc-footer-color: #2f303a;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+/* сброс */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* header */
+.header {
+  text-decoration: none;
+}
+
+/* logo */
+.logo .logo-accent {
+  color: var(--accent-color);
+}
+.logo {
+  color: var(--secondary-text-color);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+/* nav */
+.site-list .site-nav:hover,
+.site-list .site-nav:focus,
+.site-list .site-nav:active {
+  color: var(--accent-color);
+}
+.site-nav {
+  color: #212121;
+}
+.site-list {
+  color: var(--secondary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* AUTH */
+
+.site-auth .site-link:hover,
+.site-auth .site-link:focus .site-auth .site-link:active {
+  color: var(--accent-color);
+}
+.site-auth {
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.site-link {
+  color: var(--primary-text-color);
+}
+
+/* HERO */
+
+.section-btn {
+  background-color: var(--bgc-footer-color);
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.section-btn .text-btn {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.text-btn {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* features  */
+
+.features-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.about-title,
+.users-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.users-subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.users-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.features-title,
+.about .about-title,
+.users .users-title {
+  color: var(--secondary-text-color);
+}
+.users-list .users-subtitle {
+  color: var(--secondary-text-color);
+}
+.users {
+  background-color: #f5f4fa;
+}
+
+/* FOOTER */
+.footer {
+  color: #ffffff;
+  background-color: var(--bgc-footer-color);
+}
+.logo-white {
+  color: #ffffff;
+}
+.footer-list {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.footer-map {
+  color: #ffffff;
+  font-style: normal;
+}
+.addres :hover,
+.addres :focus,
+.addres :active {
+  color: var(--accent-color);
+}
+.footer-nav {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+
+/* HERO PORTFOLIO */
+
+.list-button-item {
+  cursor: pointer;
+  color: var(--secondary-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+.list-button-pointer .list-button-item:hover,
+.list-button-pointer .list-button-item:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.img-title {
+  color: var(--secondary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.img-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
