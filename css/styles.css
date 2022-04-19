@@ -21,7 +21,9 @@ body {
 }
 
 .section {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  justify-content: center;
 }
 
 .img {
@@ -30,7 +32,7 @@ body {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -56,6 +58,7 @@ ol {
   list-style: none;
 }
 .link {
+  display: block;
   text-decoration: none;
 }
 /* header */
@@ -135,10 +138,11 @@ ol {
 /* HERO */
 
 .section-btn {
-  padding: 200px 0 280px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 
-  background-color: var(--bgc-footer-color);
   text-align: center;
+  background-color: var(--bgc-footer-color);
 }
 
 .heading {
@@ -174,8 +178,13 @@ ol {
 
 /* features  */
 
+.features-list {
+  width: 270px;
+}
+
 .features {
   display: flex;
+  padding-bottom: 0px;
 }
 
 .features .features-list:not(:last-child) {
@@ -207,7 +216,8 @@ ol {
 }
 
 .card {
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -257,6 +267,8 @@ ol {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+
+  margin-bottom: 16px;
 }
 
 .features-title,
